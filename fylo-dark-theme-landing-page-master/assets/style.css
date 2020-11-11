@@ -4,6 +4,7 @@
     background-color: hsl(217, 28%, 15%);
 }
 body{
+    margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
     background-color: hsl(217, 28%, 15%);
@@ -153,7 +154,7 @@ h1{
         padding-top: 300px;
     }
     .containerr{
-        height: 2000px;
+        height: 2500px;
     }
 }
 
@@ -164,4 +165,17 @@ h1{
 }
 .productivity-section h1, .productivity-section p{
     color: #fff;
+}
+
+@media screen and (max-width: 420px){
+    .productivity-section{
+        padding: 2%;
+    }
+    .productivity-section h1{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .productivity-section p{
+        text-align: center;
+    }
 }
