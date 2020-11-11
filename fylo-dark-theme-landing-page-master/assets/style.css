@@ -8,6 +8,9 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: hsl(217, 28%, 15%);
 }
+h1{
+    font-weight: bold;
+}
 .container-fluid{
     margin: 0;
 }
@@ -137,7 +140,7 @@ body{
 }
 
 .containerr{
-    height: 800px;
+    height: 2000px;
 }
 @media screen and (max-width: 420px){
     .advantage-container{
@@ -152,4 +155,13 @@ body{
     .containerr{
         height: 2000px;
     }
+}
+
+.productivity-section{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 50px;
+}
+.productivity-section h1, .productivity-section p{
+    color: #fff;
 }
