@@ -108,3 +108,35 @@ body{
         font-size: 17px;
     }
 }
+
+.advantage-container{
+    width: 60%;
+    padding-top: 0px;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1490px){
+    .advantage-container{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .advantage-container{
+        padding-top: 300px;
+    }
+}
+
+.advantage-card{
+    width: 95%;
+    color: #fff;
+}
+
+.advantage-card img{
+    width: auto !important;
+    height: 120px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
