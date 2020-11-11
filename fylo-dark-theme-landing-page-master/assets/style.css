@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
 .header{
-    background-color: rgb(27,35,48);
+    background-color: hsl(217, 28%, 15%);
 }
 body{
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(217, 28%, 15%);
 }
 .container-fluid{
     margin: 0;
@@ -23,17 +27,84 @@ body{
 .navbar ul li a{
     color: #fff;
 }
-@media screen and (max-width: 400px){
+.illustration-container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.illustration-image{
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 420px){
     .navbar ul li{
         margin-left: 10px;
     } 
     .logo-img{
         width: 90px;
     } 
+    .illustration-container{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .illustration-image{
+        margin-bottom: 20px;
+    }
 }
 
-.illustration-container{
+.text-container{
+    background: url("../images/bg-curvy-desktop.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.content-container{
+    position: absolute;
+    top: 100% !important;
     width: 50%;
     margin-left: 25%;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container h1{
+    color: white;
+    text-align: center;
+    font-family: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+}
+
+.content-container p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content-container button{
+    width: 300px;
+    background-color: rgb(77, 197,211);
+    border: 1px solid rgb(77, 197,211);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 420px){
+    .content-container{
+        width: 95%;
+        margin-left: 2.5%;
+        top: 50% !important;
+    }
+    .content-container h1{
+        font-size: 30px;
+    }
+    .content-container p{
+        font-size: 17px;
+    }
 }
