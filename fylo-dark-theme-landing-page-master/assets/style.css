@@ -121,11 +121,6 @@ body{
     }
 }
 
-@media screen and (max-width: 420px){
-    .advantage-container{
-        padding-top: 300px;
-    }
-}
 
 .advantage-card{
     width: 95%;
@@ -139,4 +134,22 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+.containerr{
+    height: 800px;
+}
+@media screen and (max-width: 420px){
+    .advantage-container{
+        padding-top: 300px;
+    }
+    .advantage-container{
+        width: 95%;
+        padding-top: 0px;
+        margin-left: 2.5%;
+        padding-top: 300px;
+    }
+    .containerr{
+        height: 2000px;
+    }
 }
