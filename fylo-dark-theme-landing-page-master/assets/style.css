@@ -159,8 +159,8 @@ h1{
 }
 
 .productivity-section{
-    width: 95%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 50px;
 }
 .productivity-section h1, .productivity-section p{
@@ -178,4 +178,10 @@ h1{
     .productivity-section p{
         text-align: center;
     }
+}
+
+.testimonials-section{
+    width: 85%;
+    margin-left: 8.5%;
+    margin-top: 100px;
 }
