@@ -193,3 +193,20 @@ h1{
 .testimonials-container{
     background-color: hsl(217, 28%, 15%);
 }
+
+.testimonials-container h3{
+    font-size: 14px;
+}
+
+.testimonials-container h6{
+    font-size: 8px;
+}
+
+.customer-container{
+    margin-top: 20px;
+    display: flex;
+}
+
+.customer-container div{
+    margin-left: 20px;
+}
