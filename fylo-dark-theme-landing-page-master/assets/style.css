@@ -185,3 +185,11 @@ h1{
     margin-left: 8.5%;
     margin-top: 100px;
 }
+
+.testimonials-section{
+    color: #fff;
+}
+
+.testimonials-container{
+    background-color: hsl(217, 28%, 15%);
+}
