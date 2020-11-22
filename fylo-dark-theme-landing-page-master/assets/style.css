@@ -141,7 +141,7 @@ h1{
 }
 
 .containerr{
-    height: 2000px;
+    height: 2100px;
 }
 @media screen and (max-width: 420px){
     .advantage-container{
@@ -191,7 +191,7 @@ h1{
 }
 
 .testimonials-container{
-    background-color: hsl(217, 28%, 15%);
+    background-color: hsl(219, 30%, 18%);
 }
 
 .testimonials-container h3{
@@ -209,4 +209,20 @@ h1{
 
 .customer-container div{
     margin-left: 20px;
+}
+
+.footer{
+    width: 100%;
+    background-color: hsl(216, 53%, 9%);
+    height: 500px;
+}
+
+.call-to-action{
+    height: 350px; 
+    width: 75%; 
+    position: relative; 
+    background-color:  hsl(219, 30%, 18%); 
+    margin-left: 12.5%; 
+    top: -35%;
+    border-radius: 8px;
 }
