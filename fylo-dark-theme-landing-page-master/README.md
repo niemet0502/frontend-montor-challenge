@@ -2,4 +2,4 @@
 
 * Design
 
-<img src="design/desktop-design.jpg" width="50%" height="700px" />
+<img src="design/desktop-design.jpg" width="70%" height="800px" />
