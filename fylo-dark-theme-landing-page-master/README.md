@@ -3,7 +3,7 @@
 * Design
 <table>
   <tr>
-    <td><img src="design/desktop-design.jpg" width="50%" height="400px" /></td>
-    <td><img src="design/mobil-design.jpg" width="50%" height="400px" /></td>
+    <td><img src="design/desktop-design.jpg" width="100%" height="1000px" /></td>
+    <td><img src="design/mobile-design.jpg" width="100%" height="1000px" /></td>
   </tr>
 </table>
