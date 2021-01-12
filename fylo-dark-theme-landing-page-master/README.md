@@ -7,4 +7,3 @@
     <td><img src="design/mobil-design.jpg" width="50%" height="400px" /></td>
   </tr>
 </table>
-
